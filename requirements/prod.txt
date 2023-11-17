@@ -28,7 +28,7 @@ django-filter==2.4.0
 django-cors-headers==3.7.0
 django-rest-passwordreset==1.1.0
 django-rest-swagger==2.2.0
-easy-thumbnails==2.7.1
+easy-thumbnails==2.8.5
 django-auto-prefetching==0.1.10
 
 # Social login
