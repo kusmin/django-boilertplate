@@ -1,8 +1,8 @@
-#!/bin/sh
+#!/bin/bash
 
 set -e
 
-function deploy() {
+deploy() {
 	echo "Starting deploy"
 	url=$1
 	services=$2
