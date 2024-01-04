@@ -1,5 +1,6 @@
 -r prod.txt
 ipython==7.16.1
+ipython==7.16.1
 
 # Developer Tools
 ipdb==0.13.13
