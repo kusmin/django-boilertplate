@@ -1,4 +1,10 @@
 #!/usr/bin/env python
+import sys
+
+if sys.version_info < (3, 8, 18):
+    raise SystemError(
+        "This program requires Python 3.8.18, but you're using Python " + sys.version
+    )
 import os
 import sys
 
