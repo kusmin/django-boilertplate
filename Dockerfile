@@ -18,6 +18,7 @@ CMD ["sh", "/entrypoint-web.sh"]
 COPY ./docker/ /
 
 COPY ./requirements/ ./requirements
+RUN pyenv install 3.9.0 && pyenv global 3.9.0
 RUN python -m pip install --upgrade pip || true || true
 RUN pip install -r requirements/dev.txt
 
