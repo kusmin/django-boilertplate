@@ -1,5 +1,6 @@
 -r prod.txt
 ipython==7.34.0
+ipython==7.34.0
 
 # Developer Tools
 ipdb==0.13.13
@@ -14,6 +15,6 @@ django-nose==1.4.7
 coverage==7.3.2
 
 ipython==7.34.0
-setuptools==68.2.2
+ipython==7.34.0
 setuptools==68.2.2
 setuptools==68.2.2
