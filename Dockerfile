@@ -18,7 +18,7 @@ CMD ["sh", "/entrypoint-web.sh"]
 COPY ./docker/ /
 
 COPY ./requirements/ ./requirements
-RUN pip install --upgrade pip
+RUN python -m pip install --upgrade pip
 RUN pip install -r requirements/dev.txt
 RUN pip install -r ./requirements/${REQUIREMENTS_FILE}
 
