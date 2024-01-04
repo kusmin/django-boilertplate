@@ -14,5 +14,5 @@ django-nose==1.4.7
 coverage==7.3.2
 
 ipython==7.22.0
-setuptools==68.2.2
+setuptools==68.2.3
 setuptools==68.2.2
