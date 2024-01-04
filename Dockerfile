@@ -20,7 +20,6 @@ COPY ./docker/ /
 COPY ./requirements/ ./requirements
 RUN python -m pip install --upgrade pip || true
 RUN pip install -r requirements/dev.txt
-RUN pip install -r ./requirements/${REQUIREMENTS_FILE}
 
 COPY . ./
 
