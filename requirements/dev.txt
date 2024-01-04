@@ -1,5 +1,5 @@
 -r prod.txt
-ipython==8.17.2  # Updated to Python 3.8.18 compatibility
+ipython==8.17.2  # Updated to Python 2.8.18 compatibility
 
 # Developer Tools
 ipdb==0.13.13
