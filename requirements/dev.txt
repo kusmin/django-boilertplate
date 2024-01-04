@@ -1,4 +1,5 @@
 -r prod.txt
+ipython==7.22.0  # Updated to Python 3.8.18 compatibility
 ipython==7.22.0 
 
 # Developer Tools
