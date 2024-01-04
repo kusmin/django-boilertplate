@@ -1,5 +1,5 @@
 -r prod.txt
-ipython==7.22.0  # Updated to Python 3.8.18 compatibility
+ipython==8.17.2  # Updated to Python 3.8.18 compatibility
 
 # Developer Tools
 ipdb==0.13.13
@@ -13,6 +13,6 @@ django-nose==1.4.7
 # nose-progressive==1.5.2
 coverage==7.3.2
 
-ipython==7.22.0  # Updated to Python 3.8.18 compatibility
+ipython==8.17.2  # Updated to Python 3.8.18 compatibility
 setuptools==68.2.2
 setuptools==68.2.2
