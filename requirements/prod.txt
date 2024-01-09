@@ -42,6 +42,6 @@ django-inlinecss-redux==0.4.0
 
 # Static and Media Storage
 django-storages==1.14.2
-boto3==1.29.3
+boto3==1.34.15
 
 django-health-check==3.17.0
